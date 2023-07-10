@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static', filename='assets/css/detection.css')}}">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Detection | Admin TPS</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-bar">
+            <i class="bx bx-menu sidebarOpen"></i>
+            <span class="logo navL">
+                <a href="#">Dietung Lab</a>
+            </span>
+        </div>
+
+        <div class="menu">
+            <div class="logo-toggle">
+                <span class="logo">
+                    <a href="#">Dietung Lab</a>
+                </span>
+                <i class="bx bx-x sidebarClose"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Election</a></li>
+                <li><a href="#">Chart</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+        </div>
+
+        <div class="darkLight-searchBox">
+            <div class="dark-light">
+                <i class="bx bx-moon moon"></i>
+                <i class="bx bx-sun sun"></i>
+            </div>
+
+            <div class="searchBox">
+                <div class="searchToggle">
+                    <i class="bx bx-x cancel"></i>
+                    <i class="bx bx-search search"></i>
+                </div>
+
+                <div class="search-field">
+                    <input type="text" placeholder="Search...">
+                    <i class="bx bx-search"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <h1 class="heading">Detection</h1>
+    <div class="deteksi">
+        <h3>Stream detection</h3>
+        {% if is_camera %}
+            <a href="/admin/detection?camera=off">Turn Off Camera</a>
+        {% else %}
+        <a href="/admin/detection?camera=on">Turn On Camera</a>
+        {% endif %}
+    </div>
+    <div>
+        {% if is_camera %}
+            <img src="/video" width="50%">
+        {% else %}
+            <img src="{{url_for('static', filename = 'assets/images/no_video.png')}}" width="50%" alt="no video">
+        {% endif %}
+    </div>
+</body>
+</html>

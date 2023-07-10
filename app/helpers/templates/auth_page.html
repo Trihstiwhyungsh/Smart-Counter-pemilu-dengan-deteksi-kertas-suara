@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/toastr@2.1.4/build/toastr.min.css " rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/toastr@2.1.4/build/toastr.min.js "></script>
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{url_for('static', filename='assets/css/auth.css')}}" />
+    <link rel="stylesheet" href="assets/css/auth.css">
+    <title>Dietung App Masuk | Admin</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="{{url_for('login_page')}}" class="sign-in-form" method="post">
+            <h2 class="title">Masuk</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" name="email" placeholder="Email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" name="password" placeholder="Password" />
+            </div>
+            <input type="submit" value="Login" class="btn solid" />
+          </form>
+
+          <form action="#" class="sign-up-form">
+            <h2 class="title">Daftar</h2>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Full name" name="full_name"/>
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" name="email" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-pen"></i>
+              <input type="text" placeholder="Phone" name="phone" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-male"></i>
+              <select name="gender" id="gender-option">
+                <option value="Male">Male</option>
+                  <option value="Female">Female</option>
+              </select>
+            </div>
+            <div class="input-field" id="tps-container">
+              <i class="fas fa-male"></i>
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" name="password" />
+            </div>
+            <input type="submit" class="btn" value="Sign up" />
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>Dietung App</h3>
+            <p>
+              Lakukan perhitungan suara secara otomatis, mudah dan cepat dengan menggunakan
+              Kecerdasan Buatan.
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Daftar
+            </button>
+          </div>
+          <img src="{{url_for('static', filename='assets/images/login_image.svg')}}" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>Sudah memiliki akun ?</h3>
+            <p>
+              Masuk sekarang dan lakukan perhitungan suara secara otomatis.
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+              Masuk
+            </button>
+          </div>
+          <img src="{{url_for('static', filename='assets/images/register_image.svg')}}" class="image" alt="" />
+        </div>
+      </div>
+    </div>
+
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        {% for message in messages %}
+          <script>
+            $(document).ready(() => {
+              toastr.error("{{ message }}");
+            })
+          </script>
+        {% endfor %}
+      {% else %}
+      <script>
+        $(document).ready(() => {
+          toastr.info("Selamat datang kembali");
+        })
+      </script>
+      {% endif %}
+    {% endwith %}
+    <script src="{{url_for('static', filename='assets/js/main.js')}}"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

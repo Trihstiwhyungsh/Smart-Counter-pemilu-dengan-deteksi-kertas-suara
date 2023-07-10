@@ -1,0 +1,9 @@
+.env
+**/__pycache__/
+.vscode/
+.pytest_cache/
+.vercel
+*/**/__pycache__/
+tests/labs.py
+app/notebook/
+labs/

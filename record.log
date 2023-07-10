@@ -1,0 +1,89 @@
+2023-07-10 21:55:45,382 INFO app Thread-2 : User with email adepriyantowidies@gmail.com try to login
+2023-07-10 22:03:58,944 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:03:58,944 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:03:58,945 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:03:58,945 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:03:58,946 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:03:58,946 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (inotify)
+2023-07-10 22:04:02,928 INFO engineio.server MainThread : Server initialized for eventlet.
+2023-07-10 22:04:03,067 INFO engineio.server MainThread : Server initialized for eventlet.
+2023-07-10 22:04:10,263 WARNING werkzeug MainThread :  * Debugger is active!
+2023-07-10 22:04:10,264 WARNING werkzeug MainThread :  * Debugger is active!
+2023-07-10 22:04:10,265 INFO werkzeug MainThread :  * Debugger PIN: 330-457-035
+2023-07-10 22:04:10,265 INFO werkzeug MainThread :  * Debugger PIN: 330-457-035
+2023-07-10 22:04:20,559 INFO app ThreadPoolExecutor-1_0 : User with adepriyantowidies@gmail.com sending OTP request
+2023-07-10 22:09:17,449 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:09:17,451 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:09:17,452 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:09:17,454 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:09:17,458 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:09:17,459 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (inotify)
+2023-07-10 22:09:21,235 INFO engineio.server MainThread : Server initialized for eventlet.
+2023-07-10 22:09:21,337 INFO engineio.server MainThread : Server initialized for eventlet.
+2023-07-10 22:09:28,475 WARNING werkzeug MainThread :  * Debugger is active!
+2023-07-10 22:09:28,475 WARNING werkzeug MainThread :  * Debugger is active!
+2023-07-10 22:09:28,476 INFO werkzeug MainThread :  * Debugger PIN: 330-457-035
+2023-07-10 22:09:28,476 INFO werkzeug MainThread :  * Debugger PIN: 330-457-035
+2023-07-10 22:10:48,549 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:10:48,549 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:10:48,550 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:10:48,550 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:10:48,551 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:10:48,552 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (inotify)
+2023-07-10 22:10:52,218 INFO engineio.server MainThread : Server initialized for eventlet.
+2023-07-10 22:10:52,314 INFO engineio.server MainThread : Server initialized for eventlet.
+2023-07-10 22:10:59,406 WARNING werkzeug MainThread :  * Debugger is active!
+2023-07-10 22:10:59,407 WARNING werkzeug MainThread :  * Debugger is active!
+2023-07-10 22:10:59,407 INFO werkzeug MainThread :  * Debugger PIN: 330-457-035
+2023-07-10 22:10:59,407 INFO werkzeug MainThread :  * Debugger PIN: 330-457-035
+2023-07-10 22:33:38,188 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:33:38,191 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:33:38,191 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:33:49,270 INFO engineio.server MainThread : Server initialized for eventlet.
+2023-07-10 22:34:00,308 WARNING werkzeug MainThread :  * Debugger is active!
+2023-07-10 22:34:00,310 INFO werkzeug MainThread :  * Debugger PIN: 330-457-035
+2023-07-10 22:34:15,694 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/helpers/decoder.py', reloading
+2023-07-10 22:34:15,695 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/helpers/decoder.py', reloading
+2023-07-10 22:34:20,772 INFO engineio.server MainThread : Server initialized for eventlet.
+2023-07-10 22:34:31,290 WARNING werkzeug MainThread :  * Debugger is active!
+2023-07-10 22:34:31,291 INFO werkzeug MainThread :  * Debugger PIN: 330-457-035
+2023-07-10 22:36:10,898 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/helpers/decoder.py', reloading
+2023-07-10 22:36:10,899 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/helpers/decoder.py', reloading
+2023-07-10 22:36:10,900 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/helpers/decoder.py', reloading
+2023-07-10 22:36:15,878 INFO engineio.server MainThread : Server initialized for eventlet.
+2023-07-10 22:36:27,248 WARNING werkzeug MainThread :  * Debugger is active!
+2023-07-10 22:36:27,249 INFO werkzeug MainThread :  * Debugger PIN: 330-457-035
+2023-07-10 22:36:36,280 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/helpers/__init__.py', reloading
+2023-07-10 22:36:36,282 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/helpers/__init__.py', reloading
+2023-07-10 22:36:36,284 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/helpers/__init__.py', reloading
+2023-07-10 22:36:41,366 INFO engineio.server MainThread : Server initialized for eventlet.
+2023-07-10 22:36:51,874 WARNING werkzeug MainThread :  * Debugger is active!
+2023-07-10 22:36:51,875 INFO werkzeug MainThread :  * Debugger PIN: 330-457-035
+2023-07-10 22:36:59,270 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:36:59,272 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:36:59,273 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/controllers/auth_controller.py', reloading
+2023-07-10 22:37:04,206 INFO engineio.server MainThread : Server initialized for eventlet.
+2023-07-10 22:37:15,187 WARNING werkzeug MainThread :  * Debugger is active!
+2023-07-10 22:37:15,190 INFO werkzeug MainThread :  * Debugger PIN: 330-457-035
+2023-07-10 22:37:33,991 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/helpers/decoder.py', reloading
+2023-07-10 22:37:33,993 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/helpers/decoder.py', reloading
+2023-07-10 22:37:33,996 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/app/helpers/decoder.py', reloading
+2023-07-10 22:37:39,287 INFO engineio.server MainThread : Server initialized for eventlet.
+2023-07-10 22:37:49,519 WARNING werkzeug MainThread :  * Debugger is active!
+2023-07-10 22:37:49,521 INFO werkzeug MainThread :  * Debugger PIN: 330-457-035
+2023-07-10 22:40:20,148 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/migration.py', reloading
+2023-07-10 22:40:20,150 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/migration.py', reloading
+2023-07-10 22:40:20,151 INFO werkzeug Thread-1 :  * Detected change in '/home/dies/Projects/Callisto/callisto_web_service/migration.py', reloading
+2023-07-10 22:40:29,284 INFO engineio.server MainThread : Server initialized for eventlet.
+2023-07-10 22:40:51,776 WARNING werkzeug MainThread :  * Debugger is active!
+2023-07-10 22:40:51,778 INFO werkzeug MainThread :  * Debugger PIN: 330-457-035
+2023-07-10 22:42:15,890 INFO engineio.server MainThread : Server initialized for eventlet.
+2023-07-10 22:42:22,277 INFO werkzeug MainThread :  * Restarting with watchdog (inotify)
+2023-07-10 22:42:24,944 INFO engineio.server MainThread : Server initialized for eventlet.
+2023-07-10 22:42:32,959 WARNING werkzeug MainThread :  * Debugger is active!
+2023-07-10 22:42:32,960 INFO werkzeug MainThread :  * Debugger PIN: 330-457-035
+2023-07-10 22:42:53,683 INFO app Thread-2 : User with email adepriyantowidies@gmail.com try to login
+2023-07-10 22:46:45,194 INFO app Thread-2 : User with email adepriyantowidies@gmail.com try to login

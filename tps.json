@@ -1,0 +1,66 @@
+[
+    {
+        "id": "4837feeb-5e9a-4493-9114-507792ca2959",
+        "nama_tps": "TPS Pusat",
+        "alamat": "Pusat",
+        "suara_sah": 0,
+        "suara_tidak_sah": 0,
+        "total_suara": 0
+    },
+    {
+        "id": "6dc8e68b-9e28-47bc-a99f-62b059d69bd3",
+        "nama_tps": "TPS Gumayun",
+        "alamat": "Desa Gumayun",
+        "suara_sah": 200,
+        "suara_tidak_sah": 100,
+        "total_suara": 300
+    },
+    {
+        "id": "1f63a8e4-48e7-476e-b176-e28d76ce1ae9",
+        "nama_tps": "TPS Kalikangkung",
+        "alamat": "Desa Kalikangkung",
+        "suara_sah": 200,
+        "suara_tidak_sah": 100,
+        "total_suara": 300
+    },
+    {
+        "id": "dd5f8d15-5544-41fd-883a-cafa4e67896e",
+        "nama_tps": "TPS Dukuhwaru",
+        "alamat": "Desa Dukuhwaru",
+        "suara_sah": 250,
+        "suara_tidak_sah": 50,
+        "total_suara": 300
+    },
+    {
+        "id": "3d2088f0-c8d3-4999-a5d3-49006ba1bd2a",
+        "nama_tps": "TPS Pangkah",
+        "alamat": "Desa Pangkah",
+        "suara_sah": 150,
+        "suara_tidak_sah": 150,
+        "total_suara": 300
+    },
+    {
+        "id": "f62279aa-3e6c-4ea4-9c27-f83bb69e0639",
+        "nama_tps": "TPS Slawi",
+        "alamat": "Desa Slawi Wetan",
+        "suara_sah": 100,
+        "suara_tidak_sah": 200,
+        "total_suara": 300
+    },
+    {
+        "id": "ceddd266-d421-4de2-b38e-ff904de305d9",
+        "nama_tps": "TPS Curug",
+        "alamat": "Desa Curug",
+        "suara_sah": 280,
+        "suara_tidak_sah": 20,
+        "total_suara": 300
+    },
+    {
+        "id": "7681d98e-a670-4439-9236-75f438b5e3f7",
+        "nama_tps": "TPS Bojong",
+        "alamat": "Desa Bojong",
+        "suara_sah": 300,
+        "suara_tidak_sah": 0,
+        "total_suara": 300
+    }
+]
